@@ -1,0 +1,8 @@
+- id: test.dump
+  # Pattern syntax. The `...` pattern matches variable length arguments or array pairs.
+  # As a result, this pattern matches `var_dump` function call with any arguments.
+  pattern: dump(...)
+  # The message to display when code pieces are matched with the pattern.
+  message: Pleeeease do not use dump in production.
+  # Exceptions that can ignore this violation.
+  justification: Allowed when debugging
