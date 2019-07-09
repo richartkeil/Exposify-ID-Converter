@@ -43,6 +43,10 @@ function watch($oldDataPath, $newDataPath) {
 	previewData($userArray);
 }
 
+function hereWe_introduceSomethingSmelly($foo) {
+	dump('foobar');
+}
+
 /**
  * Get the part of the .sql file which contains the important data.
  *
